@@ -83,30 +83,7 @@ class _NumberGuessPageState extends State<NumberGuessPage> {
                     ],
                   ),
                 );
-              }
-              // else if (state is NumberGuessUserPredictionState) {
-              //   return Container(
-              //     child: Column(
-              //       children: [
-              //         const QuestionMark(),
-              //         Text("Tahmin Et",
-              //             style: TextStyle(
-              //                 fontSize: InitialStateAreaSizes.fontSize)),
-              //         TextField(
-              //           controller: _textEditingController,
-              //           keyboardType: TextInputType.number,
-              //           decoration: NumberGuessStyles().textFieldDecoration,
-              //         ),
-              //         TryButton(
-              //             textFieldText: _textEditingController.text,
-              //             bloc: bloc),
-              //         Text(state.message),
-              //         Text("Deneme Sayısı: ${state.predictionSize}"),
-              //       ],
-              //     ),
-              //   );
-              // }
-              else {
+              } else {
                 return const Center(
                   child: Text("Hata"),
                 );

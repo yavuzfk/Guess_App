@@ -12,9 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # Utils
-  flutter_native_splash: ^2.3.0
-  fluttertoast: ^8.2.5
 
   # State Management
   bloc: ^8.1.2
