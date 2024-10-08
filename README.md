@@ -1,6 +1,6 @@
 # Guess_App
 
-- Bu proje verilen task dokümanındaki uygulamayı içermektedir.
+- Bu proje verilen task dokümanındaki tahmin uygulamasını içermektedir.
 - Dokümanda her hangi bir state management kütüphanesi istenmemiştir lakin hayati gereksinimi düşünürülerek uygulamanın en yoğun parçası olan **number_guess** modülü BLoC kullanılarak geliştirilmiştir. Kod analizi vb. için bu modülün incelenmesi tavsiye edilmektedir.
 - Task analiz dokümanında bottomNavigationBar istendiği için welcome_page adında ana iki sayfayı taşıyan ek bir sayfa kullanılmıştır. Tek sayfada inner page lerle oyun ve skor ekranını yapmayı tercih etmedim, çirkin bir kod çıkardı. :)
 - Pub dev den hazır paketler ile UI geliştirilebilirdi ama ana merakınızın kod yazımı olduğu tahmin edilerek tasarımın üzerine düşülmedi. 
